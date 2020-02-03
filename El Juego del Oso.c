@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <myconio.h>
+#include "myconio.h"
 #include <time.h>
 #define M 20
 #define DERECHA 77
@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
 	}
 	printf("\t\tEL JUEGO DEL OSO\n\n");
 	printf("-Reglas:\n1.Formar mas veces la palabra OSO que tu oponente.\n2.Si formas la palabra OSO repites turno\n3.Se puede formar la palabra OSO de forma horizontal, vertical y diagonal\n4.El juego termina cuando un jugador gana 3 rondas");
-	printf("\nIntroduce el tamaño de tu mapa de juego(MIMINO 8*8 | MAXIMO 20*20)\n");	
+	printf("\nIntroduce el tamaÃ±o de tu mapa de juego(MIMINO 8*8 | MAXIMO 20*20)\n");	
 
 	do{
 		scanf("%d %d",&filas, &columnas);
